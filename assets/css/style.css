@@ -1,0 +1,155 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #1b1f21
+}
+
+body {
+    display: flex;
+}
+
+.mx-auto {
+    margin-inline: auto;
+}
+
+.p-2 {
+    padding: 0.5rem
+}
+
+.px-4 {
+    padding-inline: 1rem;
+}
+
+.px-2 {
+    padding-inline: 0.5rem;
+}
+
+.py-4 {
+    padding-block: 1rem;
+}
+
+.grey {
+    color: #828485
+}
+
+.bg-platinum {
+    background-color: #e8ebe4;
+}
+
+.border-platinum {
+    border-color: #E8EBe4;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.border-b-2 {
+    border-bottom-width: 2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.text-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-lg {
+    font-size: 45px
+}
+
+.text-md {
+    font-size: 16px
+}
+
+.text-sm {
+    font-size: 14px
+}
+
+.text-xs {
+    font-size: 10px
+}
+
+.btn-primary {
+    color: #fff;
+    padding: .75rem 2.5rem;
+    background-color: #a491d2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #cdc3e6
+}
+
+.btn-primary:focus {
+    background-color: #bec1bb
+}
+
+.convo-panel {
+    flex: 0 0 30%;
+    line-height: 1.25;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.action-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.action-panel .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    flex: 0 1 520px;
+    max-width: 100%;
+}
+
+.action-icon {
+    height: 200px;
+}
+
+.new-convo-area {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pfp {
+    border-radius: 99999px;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+}
+
+.pfp.tiny {
+    width: 36px;
+    height: 36px
+}
+
+.last-message {
+    color: #444749;
+    /* max-width: 240px; */
+    max-height: 18px;
+    overflow: clip;
+}
